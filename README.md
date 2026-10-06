@@ -58,3 +58,8 @@ Projeto de fã sem fins comerciais. UNDERTALE e seus sprites pertencem a Toby Fo
 - Os padrões de ataque ficam em `PATS` (`js/v7.js`) e os diálogos nos arrays `CT`, `CHA`, `GT` etc.
 - Para testar sem morrer, abra o console do navegador e digite `GOD=1`.
 - Sons novos em `assets/audio` (bone, slam, blade, shatter...) e mapeados em `js/assets.js`.
+
+## PERMISSÕES 
+
+-entre em contato comigo para usar a base desse site, futuramente irei publicar o projeto para uso pessoal de cada um.
+
