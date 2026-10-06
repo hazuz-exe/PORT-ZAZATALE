@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jonathan Moura · Zaza · Portfólio</title>
+<link rel="icon" type="image/png" href="assets/img/soul_red.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="ov"><div><img data-src="soul_red" alt=""><p>* <span data-p="nome"></span> apareceu!</p><p class="gt">[ CLIQUE PARA ENTRAR ]</p></div></div>
+<header class="top"><b class="hc" data-p="nome"></b><span class="tb"><button id="txs" class="mini">TEXTO: NORMAL</button><button id="snd" class="mini" aria-pressed="false">SOM: LIGADO</button></span></header>
+<button id="abn" class="mini" hidden>SEM SOM? CLIQUE AQUI PARA ATIVAR</button>
+<main>
+<section id="inicio" class="hero">
+ <h1 data-p="nome"></h1><p class="sub" data-p="cargo"></p>
+ <div id="stage" class="stage px" data-bg="bg_caverna" aria-label="Cenário: use as setas ou clique para andar"><span class="hint">PROJETOS</span><button id="pc" class="pc" aria-label="Computador misterioso"><img data-src="computer" alt=""></button><button id="sp" class="sp" hidden title="Ponto de save" aria-label="Ponto de save"><img data-src="icon_save" alt=""></button><img id="fr" class="fr" data-src="frisk_down_0" alt="Frisk"></div>
+ <div id="dlg" class="box dlg" tabindex="0" role="button" aria-label="Avançar diálogo"><img id="dface" data-src="sans_face_0" alt="Sans"><p id="dtx"></p></div>
+</section>
+<section id="habilidades" hidden>
+ <h2>HABILIDADES</h2><div id="sg" class="grid"></div>
+ <div class="box dlg" style="min-height:0"><img data-src="icon_item" alt="" style="width:30px;height:48px"><p id="sd" style="min-height:2.8em">* Passe o mouse (ou toque) em uma habilidade para examiná-la.</p></div>
+</section>
+<section id="projetos" hidden>
+ <h2>PROJETOS</h2><p style="margin-bottom:18px">* Escolha um inimigo para iniciar a batalha.</p><div id="pj" class="grid"></div>
+</section>
+<section id="sobre" hidden>
+ <h2>SOBRE MIM</h2>
+ <div class="ab">
+  <figure class="art" style="margin:0"><img data-src="intro_queda" alt="Ilustração da queda no Underground"><p>* Tudo começou com uma queda.</p></figure>
+  <div class="col">
+   <div class="box"><h3 data-p="nome"></h3>
+    <dl><dt>NOME</dt><dd>Jonathan Moura, o "ZAZA"</dd><dt>CLASSE</dt><dd>Dev e criador em evolução</dd><dt>LV</dt><dd>sempre subindo</dd><dt>ATK</dt><dd>criatividade</dd><dt>DEF</dt><dd>trabalho em equipe</dd><dt>DET</dt><dd>100%</dd></dl>
+    <p>* Olá! Eu sou o Jonathan Moura, mas pode me chamar de Zaza. Adoro conversar sobre trabalho, projetos e também sobre o que eu curto: games, histórias e tudo que for conteúdo geek.</p>
+    <p>* Sou criativo nas horas certas e muito determinado com o que começo. Meu forte é o HTML avançado, e sigo evoluindo no CSS e no JavaScript, além de dar os primeiros passos em thumbnails, desenho digital, design gráfico, roteiro e criação de jogos.</p>
+    <p>* Gosto de trabalhar em equipe e de resolver problemas por caminhos inusitados e estratégicos: se o caminho óbvio não funciona, eu procuro outro. Este site é minha homenagem a Undertale, um jogo sobre escolhas, empatia e determinação, três coisas que eu levo para o meu trabalho.</p></div>
+   <div class="box tr"><img data-src="items_traits" alt="Paciência, Integridade e Bondade"><p>Paciência: ainda em treino (45%), mas cada bug resolvido sobe o nível.</p><p>Integridade: faço o que prometo, com honestidade.</p><p>Bondade: adoro somar com o time e ajudar quem está ao lado.</p></div>
+   <div class="box"><h3>PONTOS DE SAVE</h3><ul class="sv">
+    <li tabindex="0"><img data-src="icon_save" alt=""><b>FASE 1</b>Curiosidade geek: games, histórias e cultura pop viraram a base criativa.</li>
+    <li tabindex="0"><img data-src="icon_save" alt=""><b>FASE 2</b>HTML e CSS: aprendi a dar forma às ideias na tela. O HTML virou meu forte.</li>
+    <li tabindex="0"><img data-src="icon_save" alt=""><b>FASE 3</b>Criar de verdade: thumbnails, desenho, roteiros e jogos saindo do papel.</li>
+    <li tabindex="0"><img data-src="icon_save" alt=""><b>AGORA</b>Evoluindo no JavaScript e montando um portfólio cheio de determinação.</li></ul></div>
+  </div>
+ </div>
+<div class="sx"><button id="sx" class="gb" aria-label="Salvar"><img data-src="icon_save" alt=""></button></div>
+</section>
+<section id="contato" hidden>
+ <h2>CONTATOS</h2>
+ <div class="ct">
+  <div class="col">
+   <div class="box dlg" style="cursor:default"><img data-src="sans_face_3" alt="Sans" id="cface"><p id="ctx"></p></div>
+   <div class="box lk"><a id="l1" target="_blank" rel="noopener"><img data-src="soul_red" alt="">E-mail</a><a id="l2" target="_blank" rel="noopener"><img data-src="soul_red" alt="">GitHub</a></div>
+  </div>
+  <form id="f" class="box">
+   <label for="n">Seu nome</label><input id="n" name="n" required autocomplete="name">
+   <label for="e">Seu e-mail</label><input id="e" name="e" type="email" required autocomplete="email">
+   <label for="m">Mensagem</label><textarea id="m" name="m" rows="5" required></textarea>
+   <button class="btn" type="submit"><img class="ic" data-src="icon_save" alt="">ENVIAR</button>
+   <div id="sv" hidden><img data-src="icon_save" alt=""><p id="svt"></p></div>
+  </form>
+ </div>
+</section>
+</main>
+<footer>Projeto de fã, sem fins comerciais. UNDERTALE e seus sprites pertencem a Toby Fox. Fontes: Determination Mono e Hachicro. Sons e sprites: UNDERTALE © Toby Fox.<div class="sc"><button id="gx" class="gb" aria-label="???"><img data-src="gaster_f" alt=""></button><button id="nc" class="mini">NÃO CLIQUE</button></div></footer>
+<div id="fl" hidden><div class="fw"><div id="fst" class="stage px" data-bg="bg_caverna"><img id="fgf" class="fr" data-src="frisk_down_0" alt="Frisk"><img id="ffw" class="ff" data-src="flowey_sink_4" alt="Flowey"></div><div id="fbx" class="box dlg" tabindex="0" role="button" aria-label="Avançar diálogo"><img id="ffc" data-src="flowey_talk_0" alt="Flowey"><p id="ftx"></p></div><button id="fsk" class="mini">PULAR ▸</button><div id="fat" class="mn" hidden><button id="fa1" class="btn"><img class="ic" data-src="icon_fight" alt="">ATACAR</button><button id="fa2" class="btn"><img class="ic" data-src="icon_mercy" alt="">POUPAR</button></div></div></div>
+<div id="gs" hidden data-bg="bg_lab"><div class="box" id="gsb"><p id="gst"></p></div></div>
+<div id="go" hidden><div id="gdl" class="box dlg"><img id="gsf" data-src="sans_face_0" alt="Sans"><p id="gdt"></p></div><img id="gbk" class="gbk" data-src="blaster_0" alt="" hidden><div id="gbm"></div><img id="gtl" data-src="gameover" alt="GAME OVER" hidden><div id="gtd" class="box dlg" hidden><img data-src="toriel_0" alt="Toriel"><p id="gtx"></p></div><button id="gct" class="btn" hidden><img class="ic" data-src="icon_save" alt="">CONTINUAR</button></div>
+<div id="tm" class="ovl" hidden><form id="tf" class="box" autocomplete="off"><p>&gt; ZAZA.EXE</p><p>* Digite o código de acesso:</p><input id="tc" inputmode="numeric" maxlength="6" aria-label="Código de acesso"><p id="tmsg" role="status" style="min-height:1.4em;color:var(--y)"></p><div class="mn"><button class="btn" type="submit">ENTER</button><button class="btn" type="button" id="tx">SAIR</button></div></form></div>
+<div id="ch" class="sc3" hidden><img id="chs" data-src="chara_0" alt="Chara"><img id="chk" data-src="slash_0" alt="" hidden><div id="chb" class="box dlg" tabindex="0" role="button" aria-label="Avançar diálogo" style="--c:#f00"><img data-src="chara_1" alt=""><p id="cht"></p></div></div>
+<div id="gz" class="sc3" hidden><button id="gzx" class="mini">SAIR ▸</button><div id="gzc"><img id="gzs" data-src="gaster_0" alt="Gaster"><div id="gzh" hidden><img data-src="soul_red" alt="Sua alma"></div></div><div id="gzp">ZAZA &nbsp; LV 1 &nbsp; HP <span class="hpb"><i id="gzb"></i></span> <span id="gzn">20/20</span></div><div class="box" id="gzbx"><p id="gzt"></p></div></div>
+<div id="ty" class="sc3" hidden data-bg="bg_surface"><div class="orb"><i style="--a:0.0deg"><img data-src="soul_red" alt=""></i><i style="--a:51.4deg"><img data-src="soul_orange" alt=""></i><i style="--a:102.9deg"><img data-src="soul_yellow" alt=""></i><i style="--a:154.3deg"><img data-src="soul_green" alt=""></i><i style="--a:205.7deg"><img data-src="soul_aqua" alt=""></i><i style="--a:257.1deg"><img data-src="soul_blue" alt=""></i><i style="--a:308.6deg"><img data-src="soul_purple" alt=""></i></div><div class="box tyb"><p id="tyt"></p></div><button id="tyx" class="mini">FECHAR</button></div>
+<div id="sr" class="sc3" hidden><button id="srx" class="mini">SAIR ▸</button>
+ <div id="sst"><img id="sans" data-src="sansb_n" alt="Sans"><div id="sbub" hidden><img id="sbp" hidden alt=""><p id="sbt"></p></div><div id="sfxl"></div><div id="bhp" hidden><span id="bhn"></span> <span class="hpb"><i id="bhb"></i></span></div></div>
+ <div id="sbox"><p id="sit"></p><div id="tgw" hidden><img data-src="target" alt=""><i id="tgb"></i></div><canvas id="bc" width="360" height="200" hidden></canvas></div>
+ <div id="spl">ZAZA &nbsp; LV 1 &nbsp; HP <span class="hpb"><i id="spb"></i></span> <span id="spn">20/20</span></div>
+ <div id="smn" class="mn"></div>
+ <div id="send" hidden><p id="sen"></p><button id="sev" class="btn">VOLTAR AO SITE</button></div>
+ <div id="sgo" hidden><img data-src="gameover" alt="GAME OVER"><p>Fique determinado...</p><button id="sgc" class="btn">CONTINUAR</button></div></div>
+<div id="vw" class="sc3" hidden role="dialog" aria-modal="true" aria-label="Visualizador do projeto"><div class="vwb"><b id="vwt"></b><span id="vwtabs"></span><button id="vwo" class="mini" hidden>ABRIR EM NOVA ABA</button><button id="vwx" class="mini">FECHAR ✕</button></div><div id="vwc"></div><div class="box" id="vwi"><p id="vwd"></p></div></div>
+<nav aria-label="Seções"></nav>
+<div id="bt" hidden role="dialog" aria-modal="true" aria-label="Batalha de projeto"><div class="bx"><div id="bimg"></div><div class="box"><p id="btx" style="min-height:4.2em"></p></div><div class="mn" id="bmn"></div></div></div>
+<script src="js/assets.js"></script>
+<script src="js/dados.js"></script>
+<script src="js/main.js"></script>
+<script src="js/extras.js"></script>
+<script src="js/v3.js"></script>
+<script src="js/v4.js"></script>
+<script src="js/v5.js"></script>
+<script src="js/v6.js"></script>
+<script src="js/v7.js"></script>
+</body>
+</html>

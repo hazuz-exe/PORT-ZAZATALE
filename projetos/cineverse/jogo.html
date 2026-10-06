@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#17121f">
+    <title>Jogo do Filme | Cine Verse</title>
+    <link rel="stylesheet" href="jogo%20css.css">
+    <script src="jogo%20java%20script.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <a class="logo" href="pagina%20inicial.html"><span class="clapper-icon" aria-hidden="true"></span><span class="logo-word">CINE<span>VERSE</span></span></a>
+        <a class="top-link" href="pagina%20inicial.html">← VOLTAR AO CINEMA</a>
+    </header>
+
+    <main class="game-page">
+        <section class="game-card" aria-labelledby="game-title">
+            <p class="tag">✦ DESAFIO CINEMA SINISTRO ✦</p>
+            <h1 id="game-title">Qual é o <span>filme?</span></h1>
+            <p class="subtitle">Leia a pista, arrisque uma resposta ou peça outra. Quanto menos pistas usar, mais pontos ganha!</p>
+
+            <div class="score-row">
+                <span>PISTA <strong id="clue-number">1 / 5</strong></span>
+                <span>PONTOS <strong id="score">0</strong></span>
+            </div>
+
+            <div class="clue-box">
+                <span class="clue-label">SUA PISTA</span>
+                <p id="clue-text" aria-live="polite"></p>
+            </div>
+
+            <form id="answer-form" class="answer-form">
+                <label for="answer">Qual filme você acha que é?</label>
+                <div class="input-row">
+                    <input id="answer" name="answer" type="text" placeholder="Digite o nome do filme..." autocomplete="off" required>
+                    <button class="guess-button" type="submit">CHUTAR ↗</button>
+                </div>
+            </form>
+
+            <div class="actions">
+                <button class="hint-button" id="hint-button" type="button">QUERO OUTRA PISTA <span>＋</span></button>
+                <button class="next-button" id="next-button" type="button" hidden>PRÓXIMO FILME →</button>
+            </div>
+            <p class="feedback" id="feedback" role="status" aria-live="polite">Boa sorte! Cada pista extra diminui os pontos desta rodada.</p>
+        </section>
+        <p class="game-note">JOGO EDITÁVEL · ADICIONE FILMES E PISTAS NO ARQUIVO JAVASCRIPT</p>
+    </main>
+
+    <footer><a class="logo" href="pagina%20inicial.html"><span class="clapper-icon" aria-hidden="true"></span><span class="logo-word">CINE<span>VERSE</span></span></a><p>Sem spoiler. Só pistas. ♫</p></footer>
+</body>
+</html>
